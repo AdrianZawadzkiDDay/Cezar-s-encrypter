@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CEZAR'S CODE</title>
+</head>
+<body>
+
+    <label>Entered Text</label>
+    <p th:text="${formEncoder.getRawPassword()}"></p><br>
+    <label> Caezar's cipher: </label>
+    <p th:text="${formEncoder.getEncodedPassword()}"></p><br>
+
+
+
+</body>
+</html>
