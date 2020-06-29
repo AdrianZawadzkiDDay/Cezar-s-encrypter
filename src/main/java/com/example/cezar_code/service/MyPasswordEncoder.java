@@ -4,30 +4,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 public class MyPasswordEncoder implements PasswordEncoder {
 
-    public static void main(String[] args) {
-        char a = 'a';
-
-        char A = 'A';
-
-        char wynik = A > a ? A : a;
-
-        int aliczba = Integer.valueOf(a);
-        int Aliczba = Integer.valueOf(A);
-
-
-        System.out.println(Integer.valueOf('a'));
-        System.out.println(Integer.valueOf('A'));
-
-        System.out.println("-------------------");
-
-        System.out.println(Integer.valueOf('x'));
-        System.out.println(Integer.valueOf('X'));
-
-        System.out.println(Character.getName(122));
-
-//        System.out.println(Character.);
-    }
-
     @Override
     public String encode(CharSequence rawPassword) {
         String encodedPassword = "";
